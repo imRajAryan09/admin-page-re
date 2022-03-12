@@ -65,7 +65,7 @@ export const productInputs = [
 		id: 4,
 		label: "Price",
 		type: "text",
-		placeholder: "100",
+		placeholder: "$100",
 	},
 	{
 		id: 5,
