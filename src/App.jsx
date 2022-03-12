@@ -8,10 +8,11 @@ import New from "./pages/new/New";
 import { productInputs, userInputs } from "./formSource";
 import { useContext } from "react";
 import { DarkModeContext } from "./context/darkModeContext";
+import "./style/dark.scss";
 function App() {
-	 const { darkMode } = useContext(DarkModeContext);
+	const { darkMode } = useContext(DarkModeContext);
 	return (
-		<div className={darkMode ? "App dark" : "app"}>
+		<div className={darkMode ? "app dark" : "app"}>
 			<BrowserRouter>
 				<Routes>
 					<Route path="/">
